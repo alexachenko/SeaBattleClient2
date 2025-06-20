@@ -11,7 +11,7 @@ namespace SeaBattleClient2
         private readonly Panel _panel;
         private readonly bool _isMyBoard;
         private readonly Button[,] _cells = new Button[10, 10];
-        private readonly int[,] _state = new int[10, 10]; // 0 - empty, 1 - ship, 2 - hit, 3 - miss
+        private readonly int[,] _state = new int[10, 10];
 
         public GameBoard(Panel panel, bool isMyBoard)
         {
